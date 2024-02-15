@@ -252,7 +252,13 @@ font-size: 20px;
 
 
 @media (max-width:500px) {
+
+    .weather-container{
+        height: 88vh;
+        align-items: flex-start;
+    }
     .weather-container-in{
+        margin-top: 120px;
         width: 100%;
         padding: 20px;
     }
@@ -335,6 +341,10 @@ font-size: 20px;
         font-size: 15px;
     }
 
+    .nav{
+        height: 12vh;
+    }
+
     .nav-logo{
         margin-left: 20px;
     }
@@ -347,7 +357,7 @@ font-size: 20px;
 @media (max-height:500px){
 
     .weather-container{
-    overflow: scroll;
+    height: 650px;
     }
 }
 
